@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking$ System/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Banking_System
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/hp/Downloads/materials/oop/assignments/assignmen
 
 build cmake_object_order_depends_target_Banking_System: phony || CMakeFiles/Banking_System.dir
 
-build CMakeFiles/Banking_System.dir/main.cpp.obj: CXX_COMPILER__Banking_System_Debug C$:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking$ System/main.cpp || cmake_object_order_depends_target_Banking_System
+build CMakeFiles/Banking_System.dir/main.cpp.obj: CXX_COMPILER__Banking_System_Debug C$:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program/main.cpp || cmake_object_order_depends_target_Banking_System
   DEP_FILE = CMakeFiles\Banking_System.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Banking_System.dir
@@ -81,7 +81,7 @@ build Banking_System.exe: CXX_EXECUTABLE_LINKER__Banking_System_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking System\cmake-build-debug" && "C:\Program Files\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking-System-Program\cmake-build-debug && "C:\Program Files\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking System\cmake-build-debug" && "C:\Program Files\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking System" -B"C:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking System\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D C:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking-System-Program\cmake-build-debug && "C:\Program Files\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking-System-Program -BC:\Users\hp\Downloads\materials\oop\assignments\assignment2\Banking-System-Program\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build Banking_System: phony Banking_System.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking System/cmake-build-debug
+# Folder: C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program/cmake-build-debug
 
 build all: phony Banking_System.exe
 
