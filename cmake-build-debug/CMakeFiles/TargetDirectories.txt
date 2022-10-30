@@ -1,0 +1,3 @@
+C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking System/cmake-build-debug/CMakeFiles/Banking_System.dir
+C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking System/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
