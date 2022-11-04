@@ -347,10 +347,12 @@ void Create_a_New_Account()
     cout<<"An account was created with ID "<<nextclient<<" and Starting Balance "<<client.getclientbalance()<<" L.E. "<<endl;
     increaseID(nextclient);
 }
+//------------------------------------------------------------------------------------------------------------------------------
 void List_Clients_and_Accounts()
 {
-    
+
 }
+//-----------------------------------------------------------------------------------------------------------------------------
 void Withdraw_Money()
 {
     Client client;string IDclient="";int continuing=0;long long withdraw=0;
@@ -375,6 +377,7 @@ void Withdraw_Money()
         }
     }
 }
+//-------------------------------------------------------------------------------------------------------------------------------
 void Deposit_Money()
 {
     Client client;string IDclient="";int continuing=0;long long deposit=0;
@@ -399,7 +402,7 @@ void Deposit_Money()
         }
     }
 }
-//----------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------
 int main()
 {
     findnextclient();
