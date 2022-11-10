@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program
+# Install script for directory: F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

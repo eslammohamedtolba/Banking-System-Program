@@ -203,6 +203,14 @@ public:
         string myid= client_account->getId();
         return myid;
     }
+    void print(){
+        cout<<"Name->"<<getname()<<endl;
+        cout<<"ID->"<<getclientID()<<endl;
+        cout<<"Address->"<<getaddress()<<endl;
+        cout<<"Type->"<<gettype()<<endl;
+        cout<<"Clientbalance->"<<getclientbalance()<<endl;
+        cout<<"Phone->"<<getphone()<<endl;
+    }
     long long getclientbalance()
     {
         long long mybalance=client_account->getbalance();
@@ -271,7 +279,7 @@ void modifyingdatafile(string modifyID,long long modifyingbal)
     fileacount.open("Accountsinformation.txt",ios::in);
     fstream modifyingfile;modifyingfile.open("modifyingfile.txt",ios::out);
     string name,address,phone_number,ID,type,
-    strbalance,strmodifyingbal=to_string(modifyingbal);
+            strbalance,strmodifyingbal=to_string(modifyingbal);
     if(fileacount.is_open()){
         while(getline(fileacount,name)){
             getline(fileacount,ID);
@@ -350,7 +358,24 @@ void Create_a_New_Account()
 //------------------------------------------------------------------------------------------------------------------------------
 void List_Clients_and_Accounts()
 {
-
+    int chk;
+    while(true){
+        cout<<"if you have any ID in our system, please enter 1 otherwise enter 0"<<endl;
+        cin>>chk;
+        if (chk==0){
+            break;}
+        else{
+            string ID;
+            cout<<"please enter the ID :";
+            cin>>ID;
+            Client temp;
+            while (!checkinfandfillinfs( temp,ID)){
+                cout<<"the ID invaliad ,pleae enter the ID again or exit to exit:";
+                cin>>ID;
+            }
+            temp.print();
+        }
+    }
 }
 //-----------------------------------------------------------------------------------------------------------------------------
 void Withdraw_Money()

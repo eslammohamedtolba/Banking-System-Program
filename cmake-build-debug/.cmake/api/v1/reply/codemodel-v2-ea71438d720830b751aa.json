@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program/cmake-build-debug",
-		"source" : "C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program"
+		"build" : "F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program/cmake-build-debug",
+		"source" : "F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
