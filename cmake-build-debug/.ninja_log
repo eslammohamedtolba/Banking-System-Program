@@ -1,5 +1,4 @@
 # ninja log v5
-1	3299	6898046608708016	CMakeFiles/Banking_System_Program.dir/main.cpp.obj	9740a8346e3b39d7
-3305	3642	6898046612076182	Banking_System_Program.exe	9e77f338cae267ec
-9	4495	6898046785928732	CMakeFiles/Banking_System_Program.dir/main.cpp.obj	9740a8346e3b39d7
-4498	5416	6898046795013496	Banking_System_Program.exe	9e77f338cae267ec
+4	4699	6898049238142818	CMakeFiles/Banking_System_Program.dir/main.cpp.obj	9740a8346e3b39d7
+4701	5154	6898049242560272	Banking_System_Program.exe	9e77f338cae267ec
+11	631	6898049603146153	build.ninja	7e0a0a4fe0544af
