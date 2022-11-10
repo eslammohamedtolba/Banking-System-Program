@@ -1,3 +1,0 @@
-F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program/cmake-build-debug/CMakeFiles/Banking_System.dir
-F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program/cmake-build-debug/CMakeFiles/rebuild_cache.dir
