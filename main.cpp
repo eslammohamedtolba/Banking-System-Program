@@ -363,7 +363,8 @@ void List_Clients_and_Accounts()
         cout<<"if you have any ID in our system, please enter 1 otherwise enter 0"<<endl;
         cin>>chk;
         if (chk==0){
-            break;}
+            break;
+        }
         else{
             string ID;
             cout<<"please enter the ID :";
@@ -462,3 +463,4 @@ int main()
     }
 
 }
+

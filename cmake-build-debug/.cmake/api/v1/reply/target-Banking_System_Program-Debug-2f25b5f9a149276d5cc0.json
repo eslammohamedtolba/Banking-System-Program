@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Banking_System.exe"
+			"path" : "Banking_System_Program.exe"
 		},
 		{
-			"path" : "Banking_System.pdb"
+			"path" : "Banking_System_Program.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "Banking_System::@6890427a1f51a3e7e1df",
+	"id" : "Banking_System_Program::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Banking_System",
-	"nameOnDisk" : "Banking_System.exe",
+	"name" : "Banking_System_Program",
+	"nameOnDisk" : "Banking_System_Program.exe",
 	"paths" : 
 	{
 		"build" : ".",

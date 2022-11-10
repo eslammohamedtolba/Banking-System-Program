@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Banking_System",
+					"name" : "Banking_System_Program",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Banking_System::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Banking_System-Debug-f9e25524f7ed5701fa53.json",
-					"name" : "Banking_System",
+					"id" : "Banking_System_Program::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Banking_System_Program-Debug-2f25b5f9a149276d5cc0.json",
+					"name" : "Banking_System_Program",
 					"projectIndex" : 0
 				}
 			]
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program/cmake-build-debug",
-		"source" : "F:/study/year two/first term/OOP/Assignments/ass2/task-1/Banking-System-Program"
+		"build" : "C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program/cmake-build-debug",
+		"source" : "C:/Users/hp/Downloads/materials/oop/assignments/assignment2/Banking-System-Program"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 3
 	}
 }
