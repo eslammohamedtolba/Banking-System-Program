@@ -5,6 +5,7 @@
 using namespace std;
 class BankingApp
 {
+    
 public:
     BankingApp();
 };
