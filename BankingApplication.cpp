@@ -12,6 +12,7 @@ void increaseID(string ID)
         else if(i==0 && ID[0]=='9'){
             ID='1'+ID;
         }
+        
     }
     nextclient="FCI-"+ID;
 }
