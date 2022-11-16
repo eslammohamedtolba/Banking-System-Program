@@ -8,6 +8,7 @@ class BankingApp
     
 public:
     BankingApp();
+    
 };
 
 #endif //BANKING_SYSTEM_PROGRAM_BANKINGAPPLICATION_H
