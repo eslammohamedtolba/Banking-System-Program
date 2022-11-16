@@ -75,3 +75,4 @@ void Client::clientdeposit(long long valuedeposit)
 {
     client_account->deposit(valuedeposit);
 }
+//-------------------------------------------------------------
