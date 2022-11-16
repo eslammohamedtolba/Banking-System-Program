@@ -14,6 +14,7 @@ void SavingsBankAccount::withdraw(long long valuewithdraw)
             cout<<"Please enter withdraw value that is greater than or equal to 1000 and not greater than "<<balance<<endl;
             cin>>valuewithdraw;
         }
+        
         balance-=valuewithdraw;
         cout<<"Thank you."<<endl;
         cout<<"Account ID: "<<account_ID<<endl;
