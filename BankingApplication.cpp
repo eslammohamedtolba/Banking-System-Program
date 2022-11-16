@@ -14,6 +14,7 @@ void increaseID(string ID)
         }
         
     }
+    
     nextclient="FCI-"+ID;
 }
 void findnextclient()
