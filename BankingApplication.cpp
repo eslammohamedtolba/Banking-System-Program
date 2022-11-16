@@ -17,6 +17,7 @@ void increaseID(string ID)
     
     nextclient="FCI-"+ID;
 }
+
 void findnextclient()
 {
     fileacount.open("Accountsinformation.txt",ios::in);
